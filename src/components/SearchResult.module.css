@@ -1,0 +1,16 @@
+.filteredTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.filteredTitle > a {
+  color: rgb(75 85 99);
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.filteredTitle > a:hover {
+  background-color: rgba(222, 222, 222, 0.8);
+}

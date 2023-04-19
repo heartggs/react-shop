@@ -1,0 +1,24 @@
+section:first-child {
+  margin-top: 40px;
+}
+
+section {
+  padding: 48px 16px 32px 16px;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.cardList {
+  display: flex;
+  gap: 10px;
+}
+
+.cardList > a {
+  display: flex;
+  flex: 1;
+}

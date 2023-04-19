@@ -1,0 +1,122 @@
+.header {
+  padding: 10px 35px 10px 10px;
+  height: 64px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 0 4px;
+}
+
+.title > a {
+  color: #374151;
+}
+
+.sideMenu {
+  width: 26px;
+  height: 48px;
+  /* 반응형일때 non / flex로 변경 가능해야함 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideMenu:hover {
+  background-color: #d1d5db;
+  border-radius: 5px;
+}
+
+.categoryArea {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.categoryArea > a {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  color: #374151;
+}
+
+.categoryArea > a:hover {
+  background-color: #d1d5db;
+  border-radius: 5px;
+}
+
+.hamburgerIcon {
+  display: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.rightSide {
+  margin-left: auto;
+  display: flex;
+}
+
+.modeArea {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.dayMode {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.iconArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-left: 4px;
+  border-radius: 5px;
+}
+
+.iconArea:hover {
+  background-color: #d1d5db;
+}
+
+.shoppingIcon {
+  font-size: 25px;
+  position: relative;
+  color: #374151;
+}
+
+.badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 24px;
+  height: 20px;
+  background-color: #ef4444;
+  padding: 1px 4px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.input {
+  width: 183px;
+  height: 48px;
+  background-color: #d1d5db;
+  border-radius: 5px;
+  padding: 0 16px;
+  outline: none;
+}
+
+.inputArea {
+  position: relative;
+}

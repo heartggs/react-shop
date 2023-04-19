@@ -1,0 +1,165 @@
+.cardwrapper {
+  padding: 16px;
+}
+
+.detailWrapper {
+  display: flex;
+  margin-top: 40px;
+}
+
+.detailWrapper figure {
+  padding: 16px;
+  margin: 0;
+}
+
+.detailWrapper .square {
+  height: 228px;
+  width: 228px;
+  background-color: gray;
+}
+
+.detailWrapper .textArea {
+  padding: 32px 48px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.detailWrapper .titleArea {
+  display: flex;
+  align-items: center;
+}
+
+.detailWrapper .titleArea h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detailWrapper .titleArea .badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  padding: 0 6px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgb(55, 205, 190);
+  border-radius: 10px;
+}
+
+.textArea .ratingArea {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.ratingArea .stars {
+  position: relative;
+  height: 24px;
+}
+
+.origin {
+  width: 24px;
+  height: 24px;
+  color: #eee3b8;
+}
+
+.origin:nth-child(2) {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 0px;
+}
+.origin:nth-child(4) {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 24px;
+}
+.origin:nth-child(6) {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 48px;
+}
+.origin:nth-child(8) {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 72px;
+}
+.origin:nth-child(10) {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 96px;
+}
+.origin.highlight {
+  color: #facc15;
+}
+
+.opposite1 {
+  transform: rotateY(180deg);
+}
+.opposite2 {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 24px;
+}
+.opposite3 {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 48px;
+}
+.opposite4 {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 72px;
+}
+.opposite5 {
+  transform: rotateY(180deg);
+  position: absolute;
+  left: 96px;
+}
+
+.ratingArea .numberArea {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+  color: rgb(31, 41, 55);
+}
+
+.textArea .price {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 30px;
+}
+.buttonArea {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 130px;
+  height: 46px;
+  padding: 0 16px;
+  background-color: rgb(87, 23, 248);
+  border-radius: 8px;
+  border: 1px solid rgb(87, 23, 248);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.toCart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  color: rgb(31, 41, 55);
+  background-color: #fff;
+  border: 1px solid rgb(31, 41, 55);
+}
+
+.toCart:hover {
+  color: #fff;
+  background-color: rgb(31, 41, 55);
+}

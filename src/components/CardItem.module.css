@@ -1,0 +1,44 @@
+figure {
+  height: 287px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.square:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.card {
+  flex: 1;
+  height: 500px;
+  border: 1px solid rgba(229, 231, 235);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.infoArea {
+  height: 180px;
+  padding: 32px;
+  color: #1f2937;
+  font-size: 16px;
+  background-color: rgba(229, 231, 235);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.infoArea p {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+}

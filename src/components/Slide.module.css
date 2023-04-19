@@ -1,0 +1,60 @@
+.carousel {
+  height: 700px;
+  position: relative;
+}
+
+.carouselSlide {
+  height: 500px;
+}
+.carousel .carousel-slider {
+  height: 500px;
+  position: relative;
+}
+
+.control-dots {
+  position: absolute;
+  bottom: 0;
+}
+
+.slide {
+  position: relative;
+}
+.textArea {
+  text-align: left;
+  padding-left: 16px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.textArea h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.textArea p {
+  margin: 8px 0;
+}
+
+.textArea a {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: 0 12px;
+  width: 100px;
+  height: 32px;
+  color: #fff;
+  background-color: #3d4451;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.textArea .arrow {
+  margin-left: 5px;
+  font-size: 18px;
+}

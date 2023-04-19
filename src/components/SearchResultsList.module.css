@@ -1,0 +1,13 @@
+.modal {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 240px;
+  max-height: 384px;
+  background-color: #fff;
+  color: rgb(75, 85, 99);
+  border-radius: 10px;
+  z-index: 999;
+  box-shadow: 0 0 8px #ddd;
+  overflow-y: scroll;
+}

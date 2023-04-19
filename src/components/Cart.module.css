@@ -1,0 +1,180 @@
+.cartWrapper {
+  padding: 20px 16px;
+}
+
+.emptyArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomArea {
+  margin-bottom: 50px;
+}
+
+.topSection a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #570df8;
+  border-radius: 8px;
+}
+.buyingItem {
+  display: flex;
+  margin-top: 16px;
+}
+.buyingItem a {
+  display: inline;
+}
+
+.buyingItem figure {
+  width: 100%;
+  padding: 16px;
+  margin: 0;
+}
+
+.buyingItem .square {
+  width: 192px;
+  height: 192px;
+  background-color: gray;
+}
+
+.bottomArea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.itemListWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 48px;
+}
+
+.cardInfo h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.cardInfo h3 a {
+  color: rgb(31, 41, 55);
+}
+
+.priceArea {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 30px;
+}
+
+.bottomArea .buying {
+  display: flex;
+  margin-top: 40px;
+}
+
+.bottomArea .buying > span {
+  font-size: 30px;
+}
+
+.bottomArea .buying .buyingButton {
+  height: 48px;
+  margin-left: 20px;
+  padding: 0 16px;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #570df8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttonArea .button {
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #570df8;
+  cursor: pointer;
+}
+
+.buttonArea .middleNumber {
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  background-color: #fff;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.buttonArea .middleNumber:hover {
+  background-color: rgba(31, 41, 55, 0.2);
+}
+
+.buttonArea .leftBtn {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.buttonArea .rightBtn {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.modalBox {
+  width: 512px;
+  height: 204px;
+  margin: auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.modal .buttonArea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal .buttonArea button {
+  height: 48px;
+  border: 1px solid rgb(31, 41, 55);
+  padding: 0 16px;
+  font-weight: 700;
+  color: rgb(31, 41, 55);
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.modal .buttonArea button.btnNo:hover {
+  background-color: rgb(31, 41, 55);
+  color: #fff;
+}
+
+.modal .buttonArea button.btnYes {
+  background-color: rgb(87, 13, 248);
+  color: #fff;
+  margin-right: 4px;
+}
