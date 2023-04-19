@@ -20,6 +20,7 @@ interface Product {
     rate: number;
     count: number;
   };
+  [key: string]: any;
 }
 
 export default function ProductDetail() {
