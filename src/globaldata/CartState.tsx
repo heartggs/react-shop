@@ -1,7 +1,6 @@
 import { atom } from "recoil";
 
 interface Product {
-  [x: string]: number;
   src: any;
   id: number;
   title: string;
