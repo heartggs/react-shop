@@ -19,11 +19,11 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" Component={Contents} />
-            <Route path="/fashion/" Component={Fashion} />
+            <Route path="/fashion/*" Component={Fashion} />
             <Route path="/fashion/product/:id" Component={ProductDetail} />
-            <Route path="/accessories" Component={Accessory} />
+            <Route path="/accessories/*" Component={Accessory} />
             <Route path="/accessories/product/:id" Component={ProductDetail} />
-            <Route path="/digital" Component={Digital} />
+            <Route path="/digital/*" Component={Digital} />
             <Route path="/digital/product/:id" Component={ProductDetail} />
             <Route path="/cart" Component={Cart} />
             <Route path="/:category/product/:id" Component={ProductDetail} />
